@@ -221,3 +221,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific data artifacts (regenerate with scripts/run_pipeline.py)
+data/raw/
+data/interim/
+data/processed/*.parquet
+*.zip
+
+# OS files
+Thumbs.db
+.DS_Store
